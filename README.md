@@ -32,6 +32,20 @@ Copy a DESIGN.md into your project, tell your AI agent “build me a page that l
 Built with real design depth — including analyzed patterns, tokens, and rules — for high-quality UI generation, not surface-level outputs.
 
 
+## About This Standalone Edition
+
+- **Main repository:** [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md)
+- **Based on version:** upstream commit `3b605329240ce735b510037cca322f1831fdd7f8` (snapshotted 2026-10-20; upstream HEAD dated 2026-10-14)
+- **This edition:** v1.1.0 (v1.0.0 = clean baseline of the upstream version above)
+- **What was done:** Converted from a fork into a standalone repository (fresh history, baseline commit), then enhanced in place by Syed Mujtaba Abbas.
+- **Enhancements in this edition (v1.1.0):**
+  - This About section, with full upstream credit and version provenance
+  - `ENHANCEMENTS.md` — per-version changelog of everything changed in this edition
+  - `.github/dependabot.yml` — weekly GitHub Actions dependency updates
+  - `.markdownlint.json` + `.github/workflows/markdown-check.yml` — markdown linting automation for contributions
+  - `.editorconfig` — standard editor settings (UTF-8, LF, 2-space indent)
+- **Credit & licence:** All original work belongs to VoltAgent and the upstream contributors. Licence is preserved unchanged — see `LICENSE` (MIT). This edition adds the enhancements listed above only.
+
 ## What is DESIGN.md?
 
 [DESIGN.md](https://stitch.withgoogle.com/docs/design-md/overview/) is a new concept introduced by Google Stitch. A plain-text design system document that AI agents read to generate consistent UI.
